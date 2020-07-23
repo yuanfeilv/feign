@@ -35,7 +35,6 @@
     <module>jackson-jaxb</module>
     <module>jaxb</module>
     <module>jaxrs</module>
-    <module>jaxrs2</module>
     <module>okhttp</module>
     <module>googlehttpclient</module>
     <module>ribbon</module>
@@ -174,8 +173,7 @@
       <dependency>
         <groupId>${project.groupId}</groupId>
         <artifactId>feign-core</artifactId>
-        <version>${project.version}</version>
-        <type>test-jar</type>
+        <version>11.0</version>
       </dependency>
 
       <dependency>
@@ -223,8 +221,7 @@
       <dependency>
         <groupId>${project.groupId}</groupId>
         <artifactId>feign-jaxrs</artifactId>
-        <version>${project.version}</version>
-        <type>test-jar</type>
+        <version>11.0</version>
       </dependency>
 
       <dependency>

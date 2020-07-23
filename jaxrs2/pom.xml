@@ -69,14 +69,12 @@
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>feign-core</artifactId>
-      <type>test-jar</type>
-      <scope>test</scope>
+      <version>11.0</version>
     </dependency>
     <dependency>
       <groupId>${project.groupId}</groupId>
       <artifactId>feign-jaxrs</artifactId>
-      <type>test-jar</type>
-      <scope>test</scope>
+      <version>11.0</version>
     </dependency>
 
     <dependency>
